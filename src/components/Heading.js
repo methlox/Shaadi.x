@@ -7,7 +7,6 @@ function Heading() {
         <h1 className='lato'>Debug</h1>
         <h1 className='dancing'>together</h1>
         <h1 className='lato'>Forever!</h1>
-
     </div>
   )
 }
