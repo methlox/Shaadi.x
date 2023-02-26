@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavbarContainer, Navlogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements'
+import { Nav, NavbarContainer, Navlogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'
 import { FaBars } from 'react-icons/fa'
 
 
@@ -10,13 +10,25 @@ const Navbar = () => {
             <NavbarContainer>
                 <Navlogo to='/'>shaadi.x</Navlogo>
                 <MobileIcon>
-                    <FaBars />
+                    <FaBars  />
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
                         <NavLinks to="matches">Matches</NavLinks>
                     </NavItem>
+                    <NavItem>
+                        <NavLinks to="discover">Discover</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to="contribute">Contribute</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to="sign-up">Sign Up</NavLinks>
+                    </NavItem>
                 </NavMenu>
+                <NavBtn>
+                    <NavBtnLink>Sign In</NavBtnLink>
+                </NavBtn>
             </NavbarContainer>
         </Nav>
     
