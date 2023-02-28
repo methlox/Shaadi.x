@@ -11,6 +11,20 @@ export const HeroContainer = styled.div`
   position: relative;
   z-index: 1;
 
+  :before {
+    content: '',
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%
+    ),
+    linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+    z-index: 2;
+  }
+
 `;
 
 export const HeroBg = styled.div`
@@ -40,15 +54,14 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  top: 210px;
 `;
 
 export const HeroH1 = styled.div`
   color: #fff;
-  font-size: 48px;
+  font-size: 64px;
   text-align: center;
-
-  @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
-  font-family: Climate Crisis, cursive;
+  font-family: "Dancing Script";
 
   @media screen and (max-width: 768px) {
     font:size: 40px;
@@ -62,9 +75,7 @@ export const HeroH1 = styled.div`
 export const HeroP = styled.div`
   margin-top: 24px;
   color: #fff;
-  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
-  font-family: "Dancing Script", cursive;
-  font-size: 40px;
+  font-size: 24px;
   text-align: center;
   max-width: 600px;
 
