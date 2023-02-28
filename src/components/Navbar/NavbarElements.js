@@ -83,7 +83,7 @@ export const NavLinks = styled(LinkS)`
 
   &.active {
     border-bottom: 3px solid #01bf71
-  }
+  } // change to #F2B33D
 `
 
 export const NavBtn = styled.nav`

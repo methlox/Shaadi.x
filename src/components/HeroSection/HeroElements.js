@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
+import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -47,6 +47,9 @@ export const HeroH1 = styled.div`
   font-size: 48px;
   text-align: center;
 
+  @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+  font-family: Climate Crisis, cursive;
+
   @media screen and (max-width: 768px) {
     font:size: 40px;
   }
@@ -59,7 +62,9 @@ export const HeroH1 = styled.div`
 export const HeroP = styled.div`
   margin-top: 24px;
   color: #fff;
-  font-size: 24px;
+  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
   text-align: center;
   max-width: 600px;
 
