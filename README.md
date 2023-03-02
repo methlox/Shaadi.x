@@ -1,5 +1,7 @@
 # Progress
 
+![image](https://user-images.githubusercontent.com/84025779/222464320-775e2bfb-850f-41e3-8157-a312a0637eb4.png)
+
 ![image](https://user-images.githubusercontent.com/84025779/222422740-0fce04c1-eed5-489d-8cae-23d5854ca365.png)
 
 https://user-images.githubusercontent.com/84025779/221995161-1e20a455-66b3-4ae3-9357-5b2b0306c1b8.mp4
