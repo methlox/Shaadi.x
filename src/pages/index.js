@@ -3,6 +3,7 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Matches from "../components/Matches";
+import Discover from "../components/Discover";
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <Matches />
+      <Discover />
     </>
   );
 };

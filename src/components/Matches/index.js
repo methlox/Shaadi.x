@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  ServicesContainer,
+  MatchesContainer,
   H1,
   Wrapper,
   Card,
@@ -12,11 +12,12 @@ import {
 
 import Icon1 from "../../Media/react.svg";
 import Icon2 from "../../Media/express.svg";
-import Icon3 from "../../Media/django.svg";
+// import Icon3 from "../../Media/django.svg";
+import Icon4 from "../../Media/nextjs.svg";
 
 const Matches = () => {
   return (
-    <ServicesContainer id="services">
+    <MatchesContainer id="matches">
       <H1>Your Matches</H1>
       <Wrapper>
         <Card>
@@ -33,13 +34,19 @@ const Matches = () => {
           <P>Never lose your session data again ❤️</P>
         </Card>
 
-        <Card>
+        {/* <Card>
           <Icon src={Icon3} />
           <H2>Django</H2>
           <P>Wanna debug together later tonight?</P>
+        </Card> */}
+
+        <Card>
+          <Icon src={Icon4} />
+          <H2>Next JS</H2>
+          <P>Better than your previous and your Next</P>
         </Card>
       </Wrapper>
-    </ServicesContainer>
+    </MatchesContainer>
   );
 };
 

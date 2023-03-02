@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const bodyColor = "#f3f3fc";
-const containerColor = "#010606";
+const containerColor = "#fff";
 
-export const MatchesContainer = styled.div`
-  height: 620px;
+export const DiscoverContainer = styled.div`
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@ export const MatchesContainer = styled.div`
 
 export const H1 = styled.h1`
   font-size: 2.2rem;
-  color: #fff;
+  color: #000;
   margin-bottom: 4rem;
 
   @media screen and (max-width: 768px) {
