@@ -10,7 +10,7 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  postition: sticky;
+  position: sticky;
   top: 0;
   z-index: 10;
 
@@ -81,9 +81,9 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
 
-  &:hover {
+  &.active {
     border-bottom: 3px solid #F2B33D
-  } // change to #F2B33D
+  }
 `
 
 export const NavBtn = styled.nav`

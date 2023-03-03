@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiLinktree } from "react-icons/si";
+import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   Wrapper,
@@ -18,6 +19,11 @@ import {
 } from "./FooterElements";
 
 const Footer = () => {
+
+  const toggleName = () => {
+    scroll.scrollToTop();
+  }
+
   return (
     <FooterContainer>
       <Wrapper>
@@ -61,7 +67,7 @@ const Footer = () => {
 
         <SocialMedia>
           <SMwrap>
-            <Logo to="home">shaadi.x</Logo>
+            <Logo to="home" onClick={toggleName}>shaadi.x</Logo>
             <Copy>
               ©️ Siddhant Sharma - {new Date().getFullYear} All rights
               reserved.
