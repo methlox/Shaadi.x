@@ -4,7 +4,7 @@ const bodyColor = "#f3f3fc";
 const containerColor = "#fff";
 
 export const DiscoverContainer = styled.div`
-  height: 1000px;
+  height: 620px;
   display: flex;
   flex-direction: column;
   justify-content: center;
