@@ -8,6 +8,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavLinksS,
   NavBtn,
   NavBtnLink,
 } from "./NavbarElements";
@@ -66,7 +67,7 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks>Sign Up</NavLinks>
+              <NavLinksS to='login'>Sign Up</NavLinksS>
             </NavItem>
           </NavMenu>
           <NavBtn>
